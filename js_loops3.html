@@ -44,14 +44,13 @@
     while (i != 1){
       if (isPrime(i)){
         if (i != 2){
-          let textNod = document.createTextNode(i +', ');
-          para.appendChild(textNod);
+          let text = document.createTextNode(i +', ');
+          para.appendChild(text);
       }
         else {
-          let textNod = document.createTextNode(i);
-          para.appendChild(textNod);
+          let text = document.createTextNode(i);
+          para.appendChild(text);
         }
-        
       }
       i--;
     }
